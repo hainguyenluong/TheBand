@@ -1,0 +1,98 @@
+
+        /* PC */
+        @media(min-width:64em){
+            #mobile-menu{
+                display: none;
+            }
+        }
+
+        /* Table */
+        @media(max-width:63.9375em) and (min-width:46.25em){
+            .s-but-full{
+                width: 100%;
+            }
+            
+            #mobile-menu{
+                display: none;
+            }
+
+            .big-tour{
+                max-width: 100%;
+            }
+        }
+
+        /*Mobile*/
+        @media(max-width:739px){
+            #nav{
+                display: block;
+            }
+
+            #nav:hover{
+                display: block;
+            }
+
+            #nav li{
+                display: block;
+            }
+            #header .search-btn{
+                display: none;
+            }
+
+            #header{
+                overflow: hidden;
+            }
+
+            #nav .subnav{
+                position: initial;
+                background-color: black;
+            }
+
+            #nav .subnav a{
+                color: white;
+                padding-left: 50px;
+                padding: 5px 41px;
+            }
+
+            #nav > li:first-child{
+                display: inline-block;
+            }
+
+            #content .member-item{
+                margin-top: 30px;
+                width: 100%;
+                display: block; 
+                float: none;
+            }
+            
+            .big-tour{
+                max-width: 100%;
+            }
+
+            .hinhanh{
+                width: 60%;
+            }
+
+            .Tour-small-img{
+                width: 100%;
+            }
+
+            .mb-mt32{
+                margin-top: 32px
+            }
+
+            .s-col-full,.s-but-full{
+                width: 100%;
+            }
+
+            .col-in-form{
+                padding: 0px 0px 0px 0px;
+            }
+
+            .w3-large{
+                padding-left: 9px;
+            }
+        }
+
+        /*table and mobile*/
+        @media(max-width:63.9375em){
+        }
